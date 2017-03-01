@@ -62,7 +62,7 @@ namespace StackExchange.Opserver.Data.Elastic
                     Host = hostAndPort;
                     Port = DefaultElasticPort;
                 }
-                Url = $"http://{Host}:{Port.ToString()}/";
+                Url = $"https://{Host}:{Port.ToString()}/";
             }
 
             public override string ToString() => Host;
